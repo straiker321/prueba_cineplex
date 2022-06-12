@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_item_one"
+            android:title="PELICULAS"/>
+        <item android:id="@+id/nav_item_two"
+            android:title="CINES"/>
+        <item android:id="@+id/nav_item_three"
+            android:title="PROMOCIONES"/>
+        <item android:id="@+id/nav_item_four"
+            android:title="SOCIO CINEPLANET"/>
+        <item android:id="@+id/nav_item_five"
+            android:title="DULCERIA"/>
+        <item android:id="@+id/nav_item_six"
+            android:title="CONTACTANOS"/>
+        <item android:id="@+id/nav_item_seven"
+            android:title="VTAS.CORP"/>
+    </group>
+
+    <item android:title="PROFILE">
+
+        <menu>
+            <group>
+            <item android:id="@+id/nav_item_nine"
+                android:icon="@drawable/ic_baseline_person_24"
+
+                android:title="LOGIN"/>
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

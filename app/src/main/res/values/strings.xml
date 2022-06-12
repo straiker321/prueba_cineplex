@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cineplex</string>
+    <string name="app_navigation_drawer_open">Open</string>
+    <string name="app_navigation_drawer_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="button">Registrado</string>
+
+</resources>
