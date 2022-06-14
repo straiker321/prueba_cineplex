@@ -8,5 +8,6 @@ interface ApiServicePeli
 {
     @GET("/pelicula")
     fun getAllPosts(): Call<List<Peliculas>>
-    
+
 }
+

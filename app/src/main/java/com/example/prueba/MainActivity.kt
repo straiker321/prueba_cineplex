@@ -17,13 +17,20 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.prueba.adapter.PeliculasAdapter
 import com.example.prueba.adapter.PeliculasViewHolder
+import com.example.prueba.apis.ApiServicePeli
 import com.google.android.material.navigation.NavigationView
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     lateinit var drawer: DrawerLayout
+    lateinit var service: ApiServicePeli
+    lateinit var pelirv: RecyclerView
+
     private lateinit var toggle: ActionBarDrawerToggle
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,8 +56,34 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         val navigationView: NavigationView = findViewById(R.id.nav_view)
         navigationView.setNavigationItemSelectedListener(this)
+
+        val retrofit = Retrofit.Builder()
+            .baseUrl("http://localhost:8070")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build()
+        pelirv = findViewById(R.id.recyclerPeliculas)
+        pelirv.layoutManager =  LinearLayoutManager(this)
+        service = retrofit.create(ApiServicePeli::class.java)
+
+        obtenerPeli()
+
     }
 
+    fun obtenerPeli(){
+
+        service.getAllPosts().enqueue(object : Callback<List<Peliculas>>{
+            override fun onResponse(
+                call: Call<List<Peliculas>>?,
+                response: Response<List<Peliculas>>?
+            ) {
+                val pelicula  = response?.body()
+                pelirv.adapter = PeliculasAdapter(pelicula!!)
+            }
+            override fun onFailure(call: Call<List<Peliculas>>?, t:Throwable){
+                t?.printStackTrace()
+            }
+        })
+    }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
 
