@@ -12,6 +12,7 @@ class PeliculasAdapter(private val PeliculasList:List<Peliculas>) : RecyclerView
         return PeliculasViewHolder(layoutInflater.inflate(R.layout.item_peliculas,parent,false))
     }
 
+
     override fun onBindViewHolder(holder: PeliculasViewHolder, position: Int) {
         val item = PeliculasList[position]
         holder.render(item)
