@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.prueba.Peliculas
 import com.example.prueba.R
 
-class PeliculasViewHolder(view: View):RecyclerView.ViewHolder(view) {
+class   PeliculasViewHolder(view: View):RecyclerView.ViewHolder(view) {
 
     val titulo = view.findViewById<TextView>(R.id.tvTitulo)
     val descripcion = view.findViewById<TextView>(R.id.tvDescripcion)
