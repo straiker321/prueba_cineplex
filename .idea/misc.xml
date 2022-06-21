@@ -6,14 +6,19 @@
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.31842105263157894" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/drawable/button_rounded.xml" value="0.1837719298245614" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.31842105263157894" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1547008547008547" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.31025641025641026" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/drawable/ic_launcher_background.xml" value="0.31842105263157894" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/drawable/ic_menu.xml" value="0.31842105263157894" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout-w1240dp/activity_loginactivity.xml" value="0.23259705488621152" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout-w936dp/activity_loginactivity.xml" value="0.271484375" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/activity_inicio.xml" value="0.297008547008547" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/activity_login.xml" value="0.22140221402214022" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/activity_login2.xml" value="0.2558876811594203" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/activity_loginactivity.xml" value="0.3048245614035088" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/activity_main.xml" value="0.17647058823529413" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/activity_peliculas.xml" value="0.25" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/activity_register.xml" value="0.2558876811594203" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/app_bar.xml" value="0.17017543859649123" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/app_bar_main.xml" value="0.20520833333333333" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/content_login_fragment2.xml" value="0.297008547008547" />
@@ -21,14 +26,15 @@
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_home.xml" value="0.1658119658119658" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_login.xml" value="0.3619791666666667" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_login2.xml" value="0.297008547008547" />
-        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_peliculas.xml" value="0.297008547008547" />
-        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_register.xml" value="0.3141025641025641" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_peliculas.xml" value="0.2336448598130841" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_profile.xml" value="0.23943661971830985" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_register.xml" value="0.20202020202020202" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_second.xml" value="0.297008547008547" />
-        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/item_peliculas.xml" value="0.25" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/item_peliculas.xml" value="0.33" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/nav_drawer.xml" value="0.3048245614035088" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/nav_header_main.xml" value="0.36666666666666664" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/register_login.xml" value="0.25" />
-        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/menu/activity_main_drawer.xml" value="0.2643171806167401" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.31842105263157894" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.31842105263157894" />
       </map>
