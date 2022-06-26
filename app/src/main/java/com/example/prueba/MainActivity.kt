@@ -98,8 +98,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             item.isChecked = true
 
             when (item.itemId){
-                R.id.nav_item_two -> Toast.makeText(this, "CINES", Toast.LENGTH_SHORT).show()
-                R.id.nav_item_five -> Toast.makeText(this, "DULCERIA", Toast.LENGTH_SHORT).show()
+                R.id.nav_item_five -> replaceFragment(DulceriaFragment(),item.title.toString())
+                R.id.nav_item_three -> replaceFragment(PromocionFragment(),item.title.toString())
+                R.id.nav_item_four -> replaceFragment(SocioFragment(),item.title.toString())
                 R.id.nav_item_nine -> replaceFragment(ProfileFragment(),item.title.toString())
             }
 

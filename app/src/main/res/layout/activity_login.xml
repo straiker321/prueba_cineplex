@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login_activity">
+    tools:context=".Login_activity"
+    tools:layout_editor_absoluteY="25dp">
 
     <ImageView
         android:id="@+id/imgeLogin"
@@ -17,70 +18,102 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/usuario"
-        android:layout_width="272dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:hint="Usuario"
-        android:inputType="textPersonName"
-        android:textColor="#000000"
-        android:textColorHighlight="@color/teal_700"
-        android:textColorHint="#000000"
-        android:textColorLink="#d70242"
-        app:cornerRadius="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgeLogin" />
 
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="273dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:textColor="#000000"
-        android:textColorHighlight="@color/teal_700"
-        android:textColorHint="#000000"
-        android:textColorLink="#d70242"
-        app:cornerRadius="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usuario" />
-
-    <Button
-        android:id="@+id/btn_inicar"
-        android:layout_width="273dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="32dp"
-        android:backgroundTint="@color/teal_700"
-        android:text="Ingresar"
-        android:textColor="@color/white"
-        app:cornerRadius="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_registrar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
-
-    <Button
-        android:id="@+id/btn_registrar"
-        android:layout_width="272dp"
-        android:layout_height="49dp"
-        android:layout_marginBottom="260dp"
-        android:backgroundTint="@color/teal_700"
-        android:text="Registrar"
-        android:textColor="@color/white"
-        app:cornerRadius="16dp"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginEnd="51dp"
+        app:cardBackgroundColor="#00000000"
+        app:cardCornerRadius="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_inicar" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/lt_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/usuario"
+                android:layout_width="272dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Usuario"
+                android:inputType="textPersonName"
+                android:shadowColor="#E6FFFFFF"
+                android:textColor="#000000"
+                android:textColorHighlight="@color/teal_700"
+                android:textColorHint="#8B000000"
+                android:textColorLink="#d70242"
+                app:cornerRadius="10dp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="273dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#000000"
+                android:textColorHighlight="@color/teal_700"
+                android:textColorHint="#8B000000"
+                android:textColorLink="#d70242"
+                app:cornerRadius="10dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="67dp"
+        app:cardBackgroundColor="#00FFFFFF"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/lt_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3"
+        tools:ignore="NotSibling">
+
+        <LinearLayout
+            android:id="@+id/lt_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_inicar"
+                android:layout_width="272dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="Ingresar"
+                android:textColor="@color/white"
+                app:cornerRadius="16dp" />
+
+            <Button
+                android:id="@+id/btn_registrar"
+                android:layout_width="272dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="Registrar"
+                android:textColor="@color/white"
+                app:cornerRadius="16dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
