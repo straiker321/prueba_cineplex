@@ -102,6 +102,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 R.id.nav_item_three -> replaceFragment(PromocionFragment(),item.title.toString())
                 R.id.nav_item_four -> replaceFragment(SocioFragment(),item.title.toString())
                 R.id.nav_item_nine -> replaceFragment(ProfileFragment(),item.title.toString())
+                R.id.nav_item_six -> replaceFragment(ContactFragment(),item.title.toString())
+                R.id.nav_item_seven -> replaceFragment(VtsFragment(),item.title.toString())
             }
 
         drawer.closeDrawer(GravityCompat.START)

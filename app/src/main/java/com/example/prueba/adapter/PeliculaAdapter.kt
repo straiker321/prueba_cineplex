@@ -1,10 +1,14 @@
 package com.example.prueba_consumo.adapter
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+
 import com.example.prueba.Peliculas
 import com.example.prueba.R
 
@@ -15,7 +19,6 @@ class PeliculaAdapter(private var listaPelicula : List<Peliculas>) : RecyclerVie
         val tvfecha_estreno : TextView = itemView.findViewById(R.id.tvfecha_estreno)
         val tvgenero : TextView = itemView.findViewById(R.id.tvgenero)
         val tvduracion : TextView = itemView.findViewById(R.id.tvduracion)
-
 
     }
 
@@ -32,8 +35,8 @@ class PeliculaAdapter(private var listaPelicula : List<Peliculas>) : RecyclerVie
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = listaPelicula[position]
-        holder.tvfecha_estreno.text = item.fechaEstreno
         holder.tvnombre.text = item.nombre
+        holder.tvfecha_estreno.text = item.fechaEstreno
         holder.tvgenero.text = item.genero
         holder.tvduracion.text = item.duracion
     }

@@ -1,7 +1,9 @@
 package com.example.prueba
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.prueba.api.ApiService
@@ -31,6 +33,7 @@ class Peliculas_activity : AppCompatActivity() {
         service = retrofit.create<ApiService>(ApiService::class.java)
         obtenerLista()
     }
+
     private fun obtenerLista(){
         service.getPeliculas().enqueue(object: Callback<List<Peliculas>> {
             override fun onResponse(call: Call<List<Peliculas>>, response: Response<List<Peliculas>>) {

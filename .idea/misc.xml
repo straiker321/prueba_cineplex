@@ -23,10 +23,13 @@
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/activity_register.xml" value="0.2558876811594203" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/activity_register_siguiente.xml" value="0.33" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/activity_register_siguiente2.xml" value="0.5" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/activity_ver_detalle_fragment.xml" value="0.24444444444444444" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/app_bar.xml" value="0.17017543859649123" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/app_bar_main.xml" value="0.20520833333333333" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/content_login_fragment2.xml" value="0.297008547008547" />
-        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_dulceria.xml" value="0.19791666666666666" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_comprar.xml" value="0.24444444444444444" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_contact.xml" value="0.24444444444444444" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_dulceria.xml" value="0.33" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_first.xml" value="0.297008547008547" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_home.xml" value="0.1658119658119658" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_login.xml" value="0.3619791666666667" />
@@ -36,6 +39,9 @@
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_promocion.xml" value="0.33" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_register.xml" value="0.20202020202020202" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_second.xml" value="0.297008547008547" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_socio.xml" value="0.24444444444444444" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_ver_detalle.xml" value="0.5" />
+        <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/fragment_vts.xml" value="0.24444444444444444" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/item_peliculas.xml" value="0.32212885154061627" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/nav_drawer.xml" value="0.3048245614035088" />
         <entry key="..\:/trabajo de desarrolo/proyectos android/prueba/app/src/main/res/layout/nav_header_main.xml" value="0.36666666666666664" />
