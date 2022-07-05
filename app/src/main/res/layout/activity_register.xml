@@ -58,13 +58,13 @@
         android:id="@+id/btn_siguiente"
         android:layout_width="128dp"
         android:layout_height="52dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="484dp"
         android:text="Siguiente"
         app:cornerRadius="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextDate"

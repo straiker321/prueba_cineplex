@@ -1,4 +1,4 @@
-package com.example.prueba
+package com.example.prueba.model
 
 
 //import com.google.gson.annotations.SerializedName

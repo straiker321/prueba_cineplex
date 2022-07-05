@@ -1,17 +1,12 @@
 package com.example.prueba
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.prueba.api.ApiService
-import com.example.prueba.databinding.ActivityPeliculasBinding
+import com.example.prueba.model.Peliculas
 import com.example.prueba_consumo.adapter.PeliculaAdapter
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

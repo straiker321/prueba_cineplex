@@ -16,21 +16,8 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 
-class DulceriaFragment : Fragment() {
+class DulceriaFragment : Fragment(R.layout.fragment_dulceria) {
 
 
-    //override fun onCreate(savedInstanceState: Bundle?) {
-        //super.onCreate(savedInstanceState)
-
-        //}
-    //}
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_dulceria, container, false)
-    }
 
 }

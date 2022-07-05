@@ -8,5 +8,6 @@
     <string name="btn_registrar">Registrar</string>
     <string name="button">Registrado</string>
     <string name="btn_siguiente">siguiente</string>
+    <string name="btn_siguiente2">siguiente</string>
     <string name="btn_detalles">Ver detalles</string>
 </resources>
