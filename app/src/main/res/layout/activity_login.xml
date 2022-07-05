@@ -38,13 +38,13 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/usuario"
+                android:id="@+id/email"
                 android:layout_width="272dp"
                 android:layout_height="48dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="26dp"
                 android:ems="10"
-                android:hint="Usuario"
+                android:hint="Email"
                 android:inputType="textPersonName"
                 android:shadowColor="#E6FFFFFF"
                 android:textColor="#000000"
